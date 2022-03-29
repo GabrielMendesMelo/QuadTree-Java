@@ -4,4 +4,4 @@
 
 Implementação da estrutura de dados em árvore quadtree para cálculo de colisão.
 
-[Página da Wikipedia sobre quadtree](https://en.wikipedia.org/wiki/Quadtree)
+[Página da Wikipedia](https://en.wikipedia.org/wiki/Quadtree)
