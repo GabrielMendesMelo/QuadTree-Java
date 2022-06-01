@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.awt.Rectangle;
 
 public class QuadTree {    
-    private static final int CAP = 4;
-
+    private final int CAP = 4;
+    
     private Quad quad;
     private ArrayList<Particula> particulas = new ArrayList<>();
 

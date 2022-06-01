@@ -11,7 +11,7 @@ public class Particula extends Rectangle {
 
     private boolean colidiu = false;
     private int timerCor = 0;
-    private static final int TIMER_COR_MAX = 10;
+    private final int TIMER_COR_MAX = 10;
 
     public Particula(Rectangle rect, int telaLargura, int telaAltura, int velX, int velY, Color cor) {
         super(rect);

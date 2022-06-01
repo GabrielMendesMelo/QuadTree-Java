@@ -132,7 +132,7 @@ public class Cena extends JPanel implements Runnable, MouseInputListener {
     public void escreverMedia(int id) {
         if (qtdProcessos == 0) return;
 
-        Path path = Path.of("src/Txt/" + nomeArquivo + ".txt");
+        Path path = Path.of("src/resultado/" + nomeArquivo + ".txt");
         String media = (id == -1 ? "Média final" : "[" + id + "]") + " n=" + nParticulas + ": " + (totalTempoProcessamento / qtdProcessos) + "ns";
 
         if (Files.isReadable(path)) {
